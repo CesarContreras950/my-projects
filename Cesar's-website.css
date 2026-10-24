@@ -1,0 +1,98 @@
+body {
+      animation: changeColor 15s ease-out infinite;
+      -webkit-animation: changeColor 15s ease-out infinite;
+}
+  
+  @keyframes changeColor {
+    0% {
+      background-color: rgb(138, 0, 117);
+    }
+    25% {
+      background-color: rgb(0, 221, 255);
+    }
+    50% {
+      background-color: #00ae86;
+    }
+    70% {
+      background-color: rgba(77, 4, 195, 0.551);
+    }
+    100% {
+      background-color: rgb(0, 115, 99);
+    }
+  }
+
+  h1 {
+  font-style: oblique;
+  font-family: "Courier New", Courier, monospace
+  font-size 10px;
+  color: greenyellow;
+}
+
+article {
+  border-radius: 30px 30px 30px 30px;
+    color: rgb(0, 94, 55);
+    font-style: oblique;
+    font-family: "Courier New", Courier, monospace;
+font-size: 18px;
+background-color: aquamarine;
+display: grid;
+margin: 30px 30px;
+padding: 30px 20px 40px 20px;
+position: relative;
+box-shadow: 20px 20px 20px rgba(48, 0, 120, 0.5);
+}
+
+h2, h3 {
+  color: rgb(147, 0, 61);
+  font-style: oblique;
+  font-family: "Courier New", Courier, monospace;
+}
+
+button {
+  background-color: rgb(59, 118, 0);
+  transition: background-color 0.3s ease;
+  /*Smoothfadeeffect*/margin: 10px 30px   padding 12px 35px;
+  border-radius: 50px;
+  color: greenyellow;
+  font-style: oblique;
+  font-family: "Courier New", Courier, monospace;
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  -ms-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #86003c9b;
+}
+
+a {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: relative;
+}
+a:hover {
+  cursor: pointer;
+}
+
+/* 2. Style the Textarea to match the clean vibe */
+#message {
+  padding: 15px;              /* Gives your text some breathing room inside the box */
+  border-radius: 15px;        /* Rounds the corners of the text box slightly */
+  border: 2px solid #e0e0e0;  /* A soft, clean border color */
+  font-family: Arial, sans-serif; /* Changes the default typewriter font to something modern */
+  outline: none;              /* Removes the default thick black box when clicked */
+  resize: vertical;           /* Allows users to adjust the height but keeps the width steady */
+}
+
+/* 3. Add a smooth focus effect for when someone clicks to type */
+#message:focus {
+  border-color: #23a6d5;      /* Matches the border to your button color when active */
+}
+
+img {
+margin-top: 30px;
+padding-top: 30px;
+}
